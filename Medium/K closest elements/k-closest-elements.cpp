@@ -10,7 +10,7 @@ using namespace std;
 
 class Solution {
   public:
-    vector<int> printKClosest(vector<int> arr, int n, int k, int x) {
+   vector<int> printKClosest(vector<int> arr, int n, int k, int x) {
         // code here
         vector<int> vec;
         int low=0,high=n-1,mid=0,mn=INT_MAX,ans=-1;
